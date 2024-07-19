@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .contato-duvida {
+        width: 40%;
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato-duvida {
+        text-align: center;
+        width: 100%;
+        margin: 50px 40px 30px 40px;
+    }
+
+    .formulario{
+        margin: 0px 40px 50px 40px;   
+    }
+}
+
+@media (max-width:375px) {
+    .contato-duvida {
+        width: 85%;
+    }
+
+    .formulario {
+        width: 85%;
+    }
+}

@@ -1,0 +1,106 @@
+body {
+    background-image: url(../img/bg-repeat.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-duvida {   
+    margin-right: 60px;
+    margin-left: 50px;
+    max-width: 350px;
+    color: #fff;
+}
+
+.contato-duvida .titulo-contato {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.contato-duvida .texto-contato {
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.formulario {
+    background-color: #fff;
+    border-radius: 7px;
+    width: 400px;
+    margin-right: 50px;
+    padding: 22px;
+}
+
+.formulario #form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario #form .input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 18px;
+    border: 1px solid #000;
+}
+
+.formulario #form .input:first-child {
+    margin-top: 0;
+}
+
+.formulario #form textarea {
+    height: 100px;
+}
+
+.formulario #form .input::-webkit-input-placeholder {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: #A8A8A8;
+    font-weight: 500;
+}
+
+.formulario #form .campos-obrigatorios {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.formulario #form .enviar {
+    color: white;
+    background-color:#3CCC87;
+    border: none;
+    padding: 12px 0px;
+    border-radius: 7px;
+}
+
+.formulario #form .enviar:hover {
+    background-color: lightskyblue;
+    transition: 0.2s ease-in-out;
+    color: #000;
+}
+
+.formulario #form .texto-obrigatorio {
+    color: #F52E2E;
+    font-size: 10px;
+    transition: 0.2s ease;
+    display: none;
+}
+
+.formulario #form .preenchido {
+    border: 1px solid #00C22B;
+}
+
+.formulario #form .obrigatorio {
+    border: 1px solid #F52E2E;
+}
+
+.formulario #form .ativo {
+    display: block;
+}
